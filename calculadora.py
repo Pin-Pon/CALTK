@@ -5,6 +5,7 @@ from tkinter  import *
 ventana = Tk()
 ventana.title("CALCULADORA")
 ventana.config(width=400,height=300)
+ventana.iconbitmap("calculadora.ico")
 i = 0
 #ENTRADA
 texto = Entry(ventana,font=("Calibri 20"))
