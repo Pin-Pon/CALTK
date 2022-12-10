@@ -30,29 +30,29 @@ def operacion():
     
     
 #CREAMOS BOTONES 
-boton1 = Button(ventana, text="1",width=5, height= 2, command=lambda: click_boton(1))
-boton2 = Button(ventana, text="2",width=5, height= 2, command=lambda: click_boton(2))
-boton3 = Button(ventana, text="3",width=5, height= 2, command=lambda: click_boton(3))
-boton4 = Button(ventana, text="4",width=5, height= 2, command=lambda: click_boton(4))
-boton5 = Button(ventana, text="5",width=5, height= 2, command=lambda: click_boton(5))
-boton6 = Button(ventana, text="6",width=5, height= 2, command=lambda: click_boton(6))
-boton7 = Button(ventana, text="7",width=5, height= 2, command=lambda: click_boton(7))
-boton8 = Button(ventana, text="8",width=5, height= 2, command=lambda: click_boton(8))
-boton9 = Button(ventana, text="9",width=5, height= 2, command=lambda: click_boton(9))
-boton0 = Button(ventana, text="0",width=13, height= 2, command=lambda: click_boton(0))
+boton1 = Button(ventana, text="1",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(1))
+boton2 = Button(ventana, text="2",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(2))
+boton3 = Button(ventana, text="3",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(3))
+boton4 = Button(ventana, text="4",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(4))
+boton5 = Button(ventana, text="5",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(5))
+boton6 = Button(ventana, text="6",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(6))
+boton7 = Button(ventana, text="7",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(7))
+boton8 = Button(ventana, text="8",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(8))
+boton9 = Button(ventana, text="9",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(9))
+boton0 = Button(ventana, text="0",fg="black",bg="yellow" ,width=13, height= 2, command=lambda: click_boton(0))
 
 
-boton_delete= Button(ventana, text="AC",width=5, height= 2, command=lambda: eliminar())
-boton_parentesis1= Button(ventana, text="(",width=5, height= 2, command=lambda: click_boton("("))
-boton_parentesis2 = Button(ventana, text=")",width=5, height= 2, command=lambda: click_boton(")"))
-boton_punto = Button(ventana, text=".",width=5, height= 2, command=lambda: click_boton("."))
+boton_delete= Button(ventana, text="AC",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: eliminar())
+boton_parentesis1= Button(ventana, text="(",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton("("))
+boton_parentesis2 = Button(ventana, text=")",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton(")"))
+boton_punto = Button(ventana, text=".",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton("."))
 
 
-boton_dividir = Button(ventana, text="/",width=5, height= 2, command=lambda: click_boton("/"))
-boton_sumar= Button(ventana, text="+",width=5, height= 2, command=lambda: click_boton("+"))
-boton_restar = Button(ventana, text="-",width=5, height= 2, command=lambda: click_boton("-"))
-boton_multiplicar = Button(ventana, text="*",width=5, height= 2, command=lambda: click_boton("*"))
-boton_igual = Button(ventana, text="=",width=5, height= 2, command=lambda: operacion())
+boton_dividir = Button(ventana, text="/",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton("/"))
+boton_sumar= Button(ventana, text="+",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton("+"))
+boton_restar = Button(ventana, text="-",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton("-"))
+boton_multiplicar = Button(ventana, text="*",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: click_boton("*"))
+boton_igual = Button(ventana, text="=",fg="black",bg="yellow" ,width=5, height= 2, command=lambda: operacion())
 
 #MOSTRAMOS LOS BOTONES CON EL MÉTODO GRID
 
